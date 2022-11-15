@@ -1,9 +1,9 @@
 # Sensemaking Data Pipeline
 Performing data analysis on unstructured MIT course catalog data and using the D3 library to create a visualization of word frequency data
 
-# Code Development
+## Code Development
 
-## Libraries
+### Libraries
 
 ```python
 # The DAG object; needed to instantiate a DAG
@@ -23,7 +23,7 @@ import glob, os
 import json
 ```
 
-## Pull course catalog pages
+### Pull course catalog pages
 
 ```python
 # pull course catalog pages
@@ -39,7 +39,7 @@ def catalog():
  
         print('wrote file: ' + file)
 ```
-## Tasks
+### Tasks
 
 <details><summary>Call helper functions</summary>
 <p>
@@ -155,7 +155,7 @@ def count_words():
 </p>
 </details>
 
-## Airflow Pipeline
+### Airflow Pipeline
 ```python
     t0 = BashOperator(
         task_id='task_zero',
