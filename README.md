@@ -205,4 +205,4 @@ def count_words():
 3. Navigate to http://localhost:8080/ to see the Airflow session. After signing in, switching to Graph View and running each task will show the following result:
     ![](https://github.com/jlstewart12/Sensemaking-Data-Pipeline/blob/main/images/DAG_Graph.png)
 4. The JavaScript visualization code can be previewed by placing the direct path to the ```mitcourses_graph.html``` file in the web browser.
-    ![](https://github.com/jlstewart12/Sensemaking-Data-Pipeline/blob/main/images/worrd_count_viz.png)
+    ![](https://github.com/jlstewart12/Sensemaking-Data-Pipeline/blob/main/images/word_count_viz.png)
