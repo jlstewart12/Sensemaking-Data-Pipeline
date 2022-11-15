@@ -196,7 +196,7 @@ def count_words():
 
 ## Code Execution
 
- 1. This terminal command copies the courseCatalog.py file inside the ```airflow-docker/dags``` folder so that Airflow can load the Python tasks as a DAG.
+ 1. This terminal command copies the ```courseCatalog.py``` file inside the ```airflow-docker/dags``` folder so that Airflow can load the Python tasks as a DAG.
     ```
     cp courseCatalog.py airflow-docker/dags
     ```
