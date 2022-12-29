@@ -40,8 +40,7 @@ def catalog():
 ```
 ### Tasks
 
-<details><summary>Call helper functions</summary>
-<p>
+Call helper functions
 
 ```python
 for url in urls:
@@ -57,11 +56,7 @@ for url in urls:
         print('--- waiting ---')
         time.sleep(15)
 ```
-</p>
-</details>
-
-<details><summary>Combine files</summary>
-<p>
+Combine files
 
 ```python
 # concatenate all files into combo file
@@ -70,11 +65,7 @@ for url in urls:
             with open(file) as infile:
                 outfile.write(infile.read())
 ```
-</p>
-</details>
-
-<details><summary>Import BeautifulSoup4 and store the JSON file.</summary>
-<p>
+Import BeautifulSoup4 and store the JSON file.
 
 ```python
 # build array of course titles
@@ -97,11 +88,7 @@ def titles():
         titles.append(item.text)
     store_json(titles, 'titles.json')
 ```
-</p>
-</details>
-
-<details><summary>Remove all punctuation, numbers, and one-character words from the titles.json file.</summary>
-<p>
+Remove all punctuation, numbers, and one-character words from the titles.json file.
 
 ```python
 # remove punctuation/numbers/one character words
@@ -128,11 +115,7 @@ def clean():
 
         store_json(titles, 'titles_clean.json')
 ```
-</p>
-</details>
-
-<details><summary>Save the resulting JSON file.</summary>
-<p>
+Save the resulting JSON file.
 
 ```python
 def count_words():
@@ -151,8 +134,6 @@ def count_words():
             counts = Counter(words)
             store_json(counts, 'words.json')
 ```
-</p>
-</details>
 
 ### Airflow Pipeline
 ```python
