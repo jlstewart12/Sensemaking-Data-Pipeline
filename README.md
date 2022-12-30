@@ -182,6 +182,6 @@ def count_words():
     ```
  2. In a Terminal window, inside the ```airflow-docker``` folder, run the ```docker-compose up``` command to create and run the containers. All of the containers will be up and running in Docker Desktop.
 3. Navigate to http://localhost:8080/ to see the Airflow session. After signing in, switching to Graph View and running each task will show the following result:
-    ![](https://github.com/jlstewart12/Sensemaking-Data-Pipeline/blob/main/src/images/DAG_Graph.png)
+    ![](/src/images/DAG_Graph.png)
 4. The JavaScript visualization code can be previewed by placing the direct path to the ```mitcourses_graph.html``` file in the web browser.
-    ![](https://github.com/jlstewart12/Sensemaking-Data-Pipeline/blob/main/src/images/word_count_viz.png)
+    ![](/src/images/word_count_viz.png)
